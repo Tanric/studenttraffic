@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+#desktop-no-show {
+ display:none;
+}
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
+}
+
+
+.header-mobile {
+  font-size: 14px;
+}
+.content-mobile {
+  font-size: 10px;
+}
+
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size:10px;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+
+}
